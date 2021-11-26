@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: #EEEEEE;
+  margin: 0;
+}
+.llists--buttons{
+  margin-top: 15px;
+}
+.lists--pbotton,
+.lists--Sbotton{
+  display: inline-block;
+  margin-top: 300px;
+  margin-right: 1px ;
+  margin-left: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration:none;
+  background-color: #EEEEEE;
+  color: #000;
+  opacity:1;
+  transition: all ease 0.2s;
+}
+
+.lists--pbotton:hover,
+.lists--Sbotton:hover{
+   opacity:0.7;
+}
+ 
